@@ -1,0 +1,9 @@
+SAMPLE_FIXTURE: handcrafted from reviewed schema; NOT observed Wokwi output.
+[BOOT] Parking Node Simulator starting...
+Type: ID=<number> to set Spot ID
+{"spot_id":1001,"occupied":false,"batt_mv":3599,"status":0,"ctr":0,"heartbeat":true}
+HEX:FFFF01E9030000000F0E00
+{"spot_id":1001,"occupied":true,"batt_mv":3599,"status":1,"ctr":1,"heartbeat":false}
+[CFG] Spot ID set to 2002
+{"spot_id":2002,"occupied":true,"batt_mv":3598,"status":1,"ctr":2,"heartbeat":true}
+{"spot_id":2002,"occupied":false,"batt_mv":3598,"status":0,"ctr":3,"heartbeat":false}

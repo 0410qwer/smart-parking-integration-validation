@@ -1,0 +1,10 @@
+{
+  "purpose": "UNCONFIGURED READINESS TEMPLATE; no live tests are executed by this file",
+  "sensor": {"firmware_version": null, "physical_setup_evidence": null, "ground_truth_file": null},
+  "mqtt": {"host": null, "port": null, "topic": null, "qos": null, "tls_required": null, "credential_environment_variable": null},
+  "backend": {"base_url": null, "event_path": null, "method": null, "accepted_codes": null, "credential_environment_variable": null},
+  "database": {"engine": null, "readonly_connection_environment_variable": null, "table": null, "column_mapping": null},
+  "web": {"base_url": null, "readonly_snapshot_path": null, "space_field": null, "status_field": null},
+  "correlation": {"source_event_identity_contract": null, "timestamp_semantics": null, "clock_comparison_evidence": null},
+  "recovery": {"approved_fault_procedure": null, "expected_buffer_retry_policy": null, "recovery_bound_seconds": null}
+}

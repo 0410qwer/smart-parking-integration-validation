@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Smart Parking · Local Demo</title><link rel="stylesheet" href="/dashboard.css"></head>
+<body>
+<header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true">P</span><div><strong>Smart Parking</strong><span>Parking availability</span></div></div><span class="environment">Virtual sensor demo</span></header>
+<div class="shell"><nav aria-label="Main navigation"><button class="tab active" data-page="overview" aria-selected="true">Overview</button><button class="tab" data-page="admin" aria-selected="false">Admin View</button><span id="systemHealth" class="system-health">Connecting…</span></nav>
+<main>
+<section id="overview" class="page active" aria-labelledby="overviewTitle"><div class="heading"><div><p class="eyebrow">LIVE AVAILABILITY</p><h1 id="overviewTitle">Find your next space.</h1><p>Current bay status, updated as virtual sensors report.</p></div><span class="updated" id="lastSync">Waiting for updates</span></div>
+<p id="connectionNotice" class="notice" hidden></p>
+<div class="summary" aria-live="polite"><article><span class="summary-dot available"></span><span>Available</span><strong id="availableCount">0</strong></article><article><span class="summary-dot occupied"></span><span>Occupied</span><strong id="occupiedCount">0</strong></article><article><span class="summary-dot unknown"></span><span>Unknown</span><strong id="unknownCount">3</strong></article><article><span>Total bays</span><strong>3</strong><small>Independently monitored</small></article></div>
+<div class="section-heading"><h2>Parking bays</h2><span>Area A · 3 monitored bays</span></div><div id="parkingGrid" class="parking-grid" aria-live="polite"></div>
+<div class="legend"><span><i class="available"></i>Available</span><span><i class="occupied"></i>Occupied</span><span><i class="unknown"></i>Unknown / updates unavailable</span></div>
+<aside class="demo-note">Local demonstration using virtual HC-SR04 sensors. No physical parking spaces are monitored.</aside>
+</section>
+<section id="admin" class="page" aria-labelledby="adminTitle"><div class="heading"><div><p class="eyebrow">SYSTEM DIAGNOSTICS</p><h1 id="adminTitle">Sensor management</h1><p>Source health, committed observations and message history.</p></div></div>
+<div class="admin-meta"><span class="pill">Reference backend · SQLite</span><span id="brokerStatus" class="pill">Broker: connecting</span><span id="sessionLabel" class="pill"></span></div>
+<p class="admin-explanation">Three virtual HC-SR04 instances run on one simulated ESP32. Last-known occupancy is retained separately from connectivity. Receive timestamps are backend UTC; source timestamps are unavailable.</p>
+<div class="table-wrap"><table><thead><tr><th>Bay / spot ID</th><th>Current status</th><th>Last known</th><th>Sensor health</th><th>Source / distance</th><th>Last message</th><th>Received (UTC)</th><th>Pending</th></tr></thead><tbody id="adminTableBody"></tbody></table></div>
+<div class="section-heading"><h2>Message history</h2><label>Bay <select id="historyFilter"><option value="">All bays</option><option value="1001">A01</option><option value="1002">A02</option><option value="1003">A03</option></select></label></div>
+<div class="table-wrap"><table><thead><tr><th>Event</th><th>Bay</th><th>State</th><th>Type</th><th>Counter</th><th>Status bits / battery</th><th>Received (UTC)</th></tr></thead><tbody id="historyBody"></tbody></table></div><p id="historyStatus" class="muted"></p>
+<details><summary>Rejected and duplicate delivery diagnostics</summary><pre id="receiptLog">No diagnostics loaded.</pre></details>
+</section>
+</main><footer><span>31261 IoT Smart Parking · Integration demo</span><span id="footerHealth">Waiting for sensor observations</span></footer></div>
+<script src="/dashboard.js"></script></body></html>

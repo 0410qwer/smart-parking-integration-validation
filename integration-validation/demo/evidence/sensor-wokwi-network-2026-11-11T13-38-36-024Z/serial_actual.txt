@@ -1,0 +1,4 @@
+[NETWORK] Joining Wokwi-GUEST; no source event publishing
+[NETWORK] wifi_ip=10.10.0.2
+[NETWORK] host=host.wokwi.internal port=18884 tcp_connected=0
+[NETWORK] DONE; no MQTT packets transmitted by this probe

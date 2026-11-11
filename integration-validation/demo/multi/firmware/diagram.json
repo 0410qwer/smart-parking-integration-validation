@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "author": "Isolated three-bay integration",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 180,
+      "left": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -160,
+      "left": -50,
+      "attrs": {
+        "distance": "350"
+      }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "fault1",
+      "top": -70,
+      "left": -20,
+      "attrs": {
+        "value": "",
+        "bounce": "0"
+      }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic2",
+      "top": -160,
+      "left": 170,
+      "attrs": {
+        "distance": "10"
+      }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "fault2",
+      "top": -70,
+      "left": 200,
+      "attrs": {
+        "value": "",
+        "bounce": "0"
+      }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic3",
+      "top": -20,
+      "left": 60,
+      "attrs": {
+        "distance": "350"
+      }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "fault3",
+      "top": 70,
+      "left": 90,
+      "attrs": {
+        "value": "",
+        "bounce": "0"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "ultrasonic1:VCC",
+      "esp:5V",
+      "red",
+      []
+    ],
+    [
+      "ultrasonic1:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ultrasonic1:TRIG",
+      "esp:5",
+      "green",
+      []
+    ],
+    [
+      "ultrasonic1:ECHO",
+      "fault1:1",
+      "blue",
+      []
+    ],
+    [
+      "fault1:2",
+      "esp:18",
+      "blue",
+      []
+    ],
+    [
+      "fault1:3",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ultrasonic2:VCC",
+      "esp:5V",
+      "red",
+      []
+    ],
+    [
+      "ultrasonic2:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ultrasonic2:TRIG",
+      "esp:19",
+      "green",
+      []
+    ],
+    [
+      "ultrasonic2:ECHO",
+      "fault2:1",
+      "blue",
+      []
+    ],
+    [
+      "fault2:2",
+      "esp:21",
+      "blue",
+      []
+    ],
+    [
+      "fault2:3",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ultrasonic3:VCC",
+      "esp:5V",
+      "red",
+      []
+    ],
+    [
+      "ultrasonic3:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ultrasonic3:TRIG",
+      "esp:22",
+      "green",
+      []
+    ],
+    [
+      "ultrasonic3:ECHO",
+      "fault3:1",
+      "blue",
+      []
+    ],
+    [
+      "fault3:2",
+      "esp:23",
+      "blue",
+      []
+    ],
+    [
+      "fault3:3",
+      "esp:GND.1",
+      "black",
+      []
+    ]
+  ]
+}

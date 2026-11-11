@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Local integration sensor variant; original preserved",
+  "editor": "wokwi",
+  "parts": [
+    {"type":"board-esp32-devkit-c-v4","id":"esp","top":0,"left":-4.76,"attrs":{}},
+    {"type":"wokwi-hc-sr04","id":"ultrasonic1","top":-161.7,"left":-42.5,"attrs":{"distance":"350"}}
+  ],
+  "connections": [
+    ["esp:TX","$serialMonitor:RX","",[]],
+    ["esp:RX","$serialMonitor:TX","",[]],
+    ["ultrasonic1:VCC","esp:5V","red",[]],
+    ["esp:GND.1","ultrasonic1:GND","black",[]],
+    ["esp:5","ultrasonic1:TRIG","green",[]],
+    ["esp:18","ultrasonic1:ECHO","green",[]]
+  ]
+}

@@ -1,0 +1,57 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] Parking Node Simulator starting...
+Type: ID=<number> to set Spot ID
+{"spot_id":1001,"occupied":false,"batt_mv":3599,"status":0,"ctr":0,"heartbeat":true}
+HEX:FFFF01E9030000000F0E00
+{"spot_id":1001,"occupied":false,"batt_mv":3598,"status":0,"ctr":1,"heartbeat":true}
+HEX:FFFF01E9030000000E0E01
+{"spot_id":1001,"occupied":false,"batt_mv":3597,"status":0,"ctr":2,"heartbeat":true}
+HEX:FFFF01E9030000000D0E02
+{"spot_id":1001,"occupied":false,"batt_mv":3596,"status":0,"ctr":3,"heartbeat":true}
+HEX:FFFF01E9030000000C0E03
+{"spot_id":1001,"occupied":true,"batt_mv":3596,"status":1,"ctr":4,"heartbeat":false}
+HEX:FFFF01E9030000010C0E04
+{"spot_id":1001,"occupied":true,"batt_mv":3595,"status":1,"ctr":5,"heartbeat":true}
+HEX:FFFF01E9030000010B0E05
+{"spot_id":1001,"occupied":true,"batt_mv":3594,"status":1,"ctr":6,"heartbeat":true}
+HEX:FFFF01E9030000010A0E06
+{"spot_id":1001,"occupied":true,"batt_mv":3593,"status":1,"ctr":7,"heartbeat":true}
+HEX:FFFF01E903000001090E07
+{"spot_id":1001,"occupied":true,"batt_mv":3592,"status":1,"ctr":8,"heartbeat":true}
+HEX:FFFF01E903000001080E08
+{"spot_id":1001,"occupied":true,"batt_mv":3591,"status":1,"ctr":9,"heartbeat":true}
+HEX:FFFF01E903000001070E09
+{"spot_id":1001,"occupied":true,"batt_mv":3590,"status":1,"ctr":10,"heartbeat":true}
+HEX:FFFF01E903000001060E0A
+{"spot_id":1001,"occupied":true,"batt_mv":3589,"status":1,"ctr":11,"heartbeat":true}
+HEX:FFFF01E903000001050E0B
+{"spot_id":1001,"occupied":false,"batt_mv":3589,"status":0,"ctr":12,"heartbeat":false}
+HEX:FFFF01E903000000050E0C
+{"spot_id":1001,"occupied":false,"batt_mv":3588,"status":0,"ctr":13,"heartbeat":true}
+HEX:FFFF01E903000000040E0D
+{"spot_id":1001,"occupied":false,"batt_mv":3587,"status":0,"ctr":14,"heartbeat":true}
+HEX:FFFF01E903000000030E0E
+{"spot_id":1001,"occupied":false,"batt_mv":3586,"status":0,"ctr":15,"heartbeat":true}
+HEX:FFFF01E903000000020E0F
+{"spot_id":1001,"occupied":false,"batt_mv":3585,"status":0,"ctr":16,"heartbeat":true}
+HEX:FFFF01E903000000010E10
+{"spot_id":1001,"occupied":false,"batt_mv":3584,"status":0,"ctr":17,"heartbeat":true}
+HEX:FFFF01E903000000000E11
+{"spot_id":1001,"occupied":false,"batt_mv":3583,"status":0,"ctr":18,"heartbeat":true}
+HEX:FFFF01E903000000FF0D12
+{"spot_id":1001,"occupied":false,"batt_mv":3582,"status":0,"ctr":19,"heartbeat":true}
+HEX:FFFF01E903000000FE0D13
+{"spot_id":1001,"occupied":true,"batt_mv":3582,"status":1,"ctr":20,"heartbeat":false}
+HEX:FFFF01E903000001FE0D14
+{"spot_id":1001,"occupied":true,"batt_mv":3581,"status":1,"ctr":21,"heartbeat":true}
+HEX:FFFF01E903000001FD0D15

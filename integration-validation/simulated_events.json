@@ -1,0 +1,36 @@
+{
+  "simulation": true,
+  "description": "Synthetic parking events for local event-validation tests; not captured from a deployed system.",
+  "events": [
+    {
+      "event_id": "SIM-20261029-001",
+      "parking_space_id": "P-01",
+      "status": "AVAILABLE",
+      "timestamp": "2026-10-29T09:00:00Z"
+    },
+    {
+      "event_id": "SIM-20261029-002",
+      "parking_space_id": "P-02",
+      "status": "OCCUPIED",
+      "timestamp": "2026-10-29T09:00:03Z"
+    },
+    {
+      "event_id": "SIM-20261029-003",
+      "parking_space_id": "P-01",
+      "status": "OCCUPIED",
+      "timestamp": "2026-10-29T09:00:08Z"
+    },
+    {
+      "event_id": "SIM-20261029-004",
+      "parking_space_id": "P-02",
+      "status": "AVAILABLE",
+      "timestamp": "2026-10-29T09:00:15Z"
+    },
+    {
+      "event_id": "SIM-20261029-005",
+      "parking_space_id": "P-01",
+      "status": "AVAILABLE",
+      "timestamp": "2026-10-29T09:00:21Z"
+    }
+  ]
+}

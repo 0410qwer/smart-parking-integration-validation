@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+# Preserve evidence/legacy hash fixtures byte-for-byte
+wokwi-source/* -text
+integration-validation/captures/* -text
+integration-validation/demo/evidence/**/serial_actual.txt -text

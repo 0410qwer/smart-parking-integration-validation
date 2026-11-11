@@ -1,0 +1,43 @@
+{
+  "mode": "capture",
+  "browser": "157.0.4341.42",
+  "actions": [
+    {
+      "distance_cm": 10,
+      "control_value": "10",
+      "after_event_count": 1,
+      "wall_time": "2026-11-11T13:44:39.413Z"
+    },
+    {
+      "distance_cm": 17,
+      "control_value": "17",
+      "after_event_count": 2,
+      "wall_time": "2026-11-11T13:44:41.332Z"
+    },
+    {
+      "distance_cm": 35,
+      "control_value": "35",
+      "after_event_count": 2,
+      "wall_time": "2026-11-11T13:44:44.462Z"
+    },
+    {
+      "distance_cm": 9,
+      "control_value": "9",
+      "after_event_count": 4,
+      "wall_time": "2026-11-11T13:44:47.497Z"
+    },
+    {
+      "distance_cm": 35,
+      "control_value": "35",
+      "after_event_count": 5,
+      "wall_time": "2026-11-11T13:44:49.296Z"
+    },
+    {
+      "distance_cm": 400,
+      "control_value": "400",
+      "after_event_count": 6,
+      "wall_time": "2026-11-11T13:44:52.219Z"
+    }
+  ],
+  "publication_note": "Sanitized capture metadata; original actions retained, host paths and browser UI dump omitted."
+}

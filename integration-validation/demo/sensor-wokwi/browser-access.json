@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-11T13:29:39.516Z",
+  "url": "https://wokwi.com/projects/new/esp32",
+  "browser": "157.0.4341.42",
+  "http": 200,
+  "title": "New ESP32 Project - Wokwi Simulator",
+  "body": "SAVE\nSHARE\nDocs\nSIGN IN\nsketch.ino\ndiagram.json\nLibrary Manager\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nvoid setup() {\n  // put your setup code here, to run once:\n  Serial.begin(115200);\n  Serial.println(\"Hello, ESP32!\");\n}\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  delay(10); // this speeds up the simulation\n}\nSimulation",
+  "frames": [
+    "https://wokwi.com/projects/new/esp32"
+  ],
+  "monaco": {
+    "monaco": true,
+    "models": [
+      {
+        "uri": "inmemory://model/1",
+        "length": 0
+      },
+      {
+        "uri": "vfs:sketch.ino",
+        "length": 232
+      }
+    ]
+  }
+}

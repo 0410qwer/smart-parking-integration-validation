@@ -1,0 +1,566 @@
+{
+  "client_date": "2026-11-12",
+  "regression_counts": {
+    "passed": 255,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "supplementary": {
+    "controlled_performance_counts": {
+      "tests": 1,
+      "pass": 1,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0
+    },
+    "extended_stability_counts": {
+      "tests": 1,
+      "pass": 1,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0
+    },
+    "volume_counts": {
+      "passed": 1,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "performance": {
+    "500": {
+      "occupied": {
+        "control_to_dom_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1835.10009765625,
+          "median_ms": 2022.39990234375,
+          "p95_ms": 2294.39990234375,
+          "maximum_ms": 2294.39990234375,
+          "p95_method": "nearest rank"
+        },
+        "observed_confirmed_serial_to_dom_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 114.10009765625,
+          "median_ms": 353.5,
+          "p95_ms": 504.39990234375,
+          "maximum_ms": 504.39990234375,
+          "p95_method": "nearest rank"
+        },
+        "control_to_serial_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1640,
+          "median_ms": 1738,
+          "p95_ms": 1790,
+          "maximum_ms": 1790,
+          "p95_method": "nearest rank"
+        },
+        "publish_to_receive_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1.157470703125,
+          "median_ms": 1.295654296875,
+          "p95_ms": 1.6708984375,
+          "maximum_ms": 1.6708984375,
+          "p95_method": "nearest rank"
+        },
+        "validation_transaction_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 11.2434,
+          "median_ms": 14.1282,
+          "p95_ms": 30.2718,
+          "maximum_ms": 30.2718,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_dom_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 12.103759765625,
+          "median_ms": 300.31591796875,
+          "p95_ms": 430.79931640625,
+          "maximum_ms": 430.79931640625,
+          "p95_method": "nearest rank"
+        },
+        "simulated_confirmation_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1511,
+          "median_ms": 1546,
+          "p95_ms": 1609,
+          "maximum_ms": 1609,
+          "p95_method": "nearest rank"
+        },
+        "api_fetch_parse_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 11.099853515625,
+          "median_ms": 11.60009765625,
+          "p95_ms": 24.2998046875,
+          "maximum_ms": 24.2998046875,
+          "p95_method": "nearest rank"
+        },
+        "dom_build_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 0.19999992847442627,
+          "median_ms": 0.3999999761581421,
+          "p95_ms": 0.40000009536743164,
+          "maximum_ms": 0.40000009536743164,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_poll_start_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": -12.396240234375,
+          "median_ms": 289.01611328125,
+          "p95_ms": 419.29931640625,
+          "maximum_ms": 419.29931640625,
+          "p95_method": "nearest rank"
+        }
+      },
+      "available": {
+        "control_to_dom_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 2915.10009765625,
+          "median_ms": 3118.39990234375,
+          "p95_ms": 3335.5,
+          "maximum_ms": 3335.5,
+          "p95_method": "nearest rank"
+        },
+        "observed_confirmed_serial_to_dom_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 100.10009765625,
+          "median_ms": 341.5,
+          "p95_ms": 584.5,
+          "maximum_ms": 584.5,
+          "p95_method": "nearest rank"
+        },
+        "control_to_serial_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 2641,
+          "median_ms": 2711,
+          "p95_ms": 2815,
+          "maximum_ms": 2815,
+          "p95_method": "nearest rank"
+        },
+        "publish_to_receive_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1.13671875,
+          "median_ms": 1.444580078125,
+          "p95_ms": 1.753173828125,
+          "maximum_ms": 1.753173828125,
+          "p95_method": "nearest rank"
+        },
+        "validation_transaction_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 11.7477,
+          "median_ms": 14.3382,
+          "p95_ms": 24.5712,
+          "maximum_ms": 24.5712,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_dom_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 18.5458984375,
+          "median_ms": 254.873291015625,
+          "p95_ms": 478.869873046875,
+          "maximum_ms": 478.869873046875,
+          "p95_method": "nearest rank"
+        },
+        "simulated_confirmation_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 2550,
+          "median_ms": 2582,
+          "p95_ms": 2588,
+          "maximum_ms": 2588,
+          "p95_method": "nearest rank"
+        },
+        "api_fetch_parse_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 11.89990234375,
+          "median_ms": 12.7001953125,
+          "p95_ms": 30.699951171875,
+          "maximum_ms": 30.699951171875,
+          "p95_method": "nearest rank"
+        },
+        "dom_build_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 0.20000004768371582,
+          "median_ms": 0.30000007152557373,
+          "p95_ms": 0.40000009536743164,
+          "maximum_ms": 0.40000009536743164,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_poll_start_ms": {
+          "attempted": 9,
+          "successful": 9,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": -12.4541015625,
+          "median_ms": 241.773193359375,
+          "p95_ms": 466.669921875,
+          "maximum_ms": 466.669921875,
+          "p95_method": "nearest rank"
+        }
+      }
+    },
+    "200": {
+      "occupied": {
+        "control_to_dom_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1666.60009765625,
+          "median_ms": 1861.400146484375,
+          "p95_ms": 1971.5,
+          "maximum_ms": 2002,
+          "p95_method": "nearest rank"
+        },
+        "observed_confirmed_serial_to_dom_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 49.60009765625,
+          "median_ms": 185.4500732421875,
+          "p95_ms": 259,
+          "maximum_ms": 264.800048828125,
+          "p95_method": "nearest rank"
+        },
+        "control_to_serial_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1600,
+          "median_ms": 1657.0,
+          "p95_ms": 1773,
+          "maximum_ms": 1819,
+          "p95_method": "nearest rank"
+        },
+        "publish_to_receive_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1.047607421875,
+          "median_ms": 1.22412109375,
+          "p95_ms": 1.629150390625,
+          "maximum_ms": 1.845703125,
+          "p95_method": "nearest rank"
+        },
+        "validation_transaction_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 10.3209,
+          "median_ms": 13.02375,
+          "p95_ms": 15.928,
+          "maximum_ms": 21.2401,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_dom_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 10.92919921875,
+          "median_ms": 91.1962890625,
+          "p95_ms": 163.042236328125,
+          "maximum_ms": 180.114990234375,
+          "p95_method": "nearest rank"
+        },
+        "simulated_confirmation_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1531,
+          "median_ms": 1546.0,
+          "p95_ms": 1548,
+          "maximum_ms": 1549,
+          "p95_method": "nearest rank"
+        },
+        "api_fetch_parse_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 10,
+          "median_ms": 11.1500244140625,
+          "p95_ms": 21.5,
+          "maximum_ms": 24.7001953125,
+          "p95_method": "nearest rank"
+        },
+        "dom_build_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 0.19999992847442627,
+          "median_ms": 0.2999999523162842,
+          "p95_ms": 0.3999999761581421,
+          "maximum_ms": 0.40000009536743164,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_poll_start_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": -13.05859375,
+          "median_ms": 80.09619140625,
+          "p95_ms": 152.2421875,
+          "maximum_ms": 169.014892578125,
+          "p95_method": "nearest rank"
+        }
+      },
+      "available": {
+        "control_to_dom_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 2723.300048828125,
+          "median_ms": 2902.3001708984375,
+          "p95_ms": 3038.800048828125,
+          "maximum_ms": 3059.7001953125,
+          "p95_method": "nearest rank"
+        },
+        "observed_confirmed_serial_to_dom_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 68.300048828125,
+          "median_ms": 189.9000244140625,
+          "p95_ms": 282.2001953125,
+          "maximum_ms": 294.60009765625,
+          "p95_method": "nearest rank"
+        },
+        "control_to_serial_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 2626,
+          "median_ms": 2726.5,
+          "p95_ms": 2842,
+          "maximum_ms": 2859,
+          "p95_method": "nearest rank"
+        },
+        "publish_to_receive_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 1.099853515625,
+          "median_ms": 1.26953125,
+          "p95_ms": 1.58984375,
+          "maximum_ms": 2.705322265625,
+          "p95_method": "nearest rank"
+        },
+        "validation_transaction_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 11.0961,
+          "median_ms": 12.6213,
+          "p95_ms": 18.5947,
+          "maximum_ms": 25.5727,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_dom_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 21.71435546875,
+          "median_ms": 92.90576171875,
+          "p95_ms": 173.993408203125,
+          "maximum_ms": 181.209228515625,
+          "p95_method": "nearest rank"
+        },
+        "simulated_confirmation_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 2548,
+          "median_ms": 2580.0,
+          "p95_ms": 2588,
+          "maximum_ms": 2588,
+          "p95_method": "nearest rank"
+        },
+        "api_fetch_parse_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 9.2998046875,
+          "median_ms": 11.25,
+          "p95_ms": 12.699951171875,
+          "maximum_ms": 12.7998046875,
+          "p95_method": "nearest rank"
+        },
+        "dom_build_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 0.19999992847442627,
+          "median_ms": 0.2999999523162842,
+          "p95_ms": 0.3999999761581421,
+          "maximum_ms": 0.40000009536743164,
+          "p95_method": "nearest rank"
+        },
+        "commit_to_poll_start_ms": {
+          "attempted": 30,
+          "successful": 30,
+          "failed": 0,
+          "failure_rate": 0.0,
+          "minimum_ms": 11.614501953125,
+          "median_ms": 81.205810546875,
+          "p95_ms": 162.993408203125,
+          "maximum_ms": 168.609130859375,
+          "p95_method": "nearest rank"
+        }
+      }
+    }
+  },
+  "target_exceedances_over_3000ms": {
+    "occupied": 0,
+    "available": 6
+  },
+  "stability": {
+    "passed": true,
+    "duration_seconds": 371.595,
+    "soak_seconds": 184.427,
+    "observed_live_serial_events": 199,
+    "committed_distinct_keys": 199,
+    "missing_observed_events": 0,
+    "sqlite_events": 199,
+    "heartbeat_events": 77,
+    "integrity": "ok",
+    "retries": 1,
+    "scope": "One bounded local virtual-sensor run, not an hours/days endurance claim; RSS excludes Edge child tree.",
+    "browser": "157.0.4341.42"
+  },
+  "stability_rss": {
+    "backend": {
+      "first_bytes": 37908480,
+      "last_bytes": 38514688,
+      "minimum_bytes": 37908480,
+      "maximum_bytes": 38641664
+    },
+    "broker": {
+      "first_bytes": 65298432,
+      "last_bytes": 67956736,
+      "minimum_bytes": 64933888,
+      "maximum_bytes": 67956736
+    },
+    "runner": {
+      "first_bytes": 106172416,
+      "last_bytes": 311848960,
+      "minimum_bytes": 106172416,
+      "maximum_bytes": 344936448
+    },
+    "serial_worker": {
+      "first_bytes": 37158912,
+      "last_bytes": 37494784,
+      "minimum_bytes": 37158912,
+      "maximum_bytes": 37494784
+    }
+  },
+  "runner_heap_used_bytes": {
+    "first": 44249080,
+    "last": 129967776,
+    "peak": 193428288
+  },
+  "database_growth_bytes": {
+    "first": 65536,
+    "last": 323584,
+    "peak": 1947640
+  },
+  "volume": {
+    "traffic_kind": "HARNESS_GENERATED_NOT_SENSOR_MEASUREMENTS",
+    "generated": 900,
+    "accepted": 900,
+    "duplicates": 3,
+    "rejected": 6,
+    "missing": 0,
+    "integrity": "ok",
+    "resource_samples": 25
+  },
+  "verified_path": "three live Wokwi virtual HC-SR04 -> browser Serial -> durable outbox -> TCP MQTT QoS1 -> SQLite reference backend -> API -> Edge Dashboard/Admin",
+  "ready_for_bounded_local_virtual_demo": true,
+  "three_second_compliance": false,
+  "physical_hardware_verified": false,
+  "direct_esp32_mqtt_verified": false,
+  "production_ready": false,
+  "remaining_blockers": [
+    "Saaket production backend unavailable",
+    "Physical hardware and physical latency unverified",
+    "Direct ESP32-to-local MQTT unverified",
+    "Material browser-driver Node memory growth; no long-duration leak qualification",
+    "Six of thirty Free trials exceeded 3000 ms",
+    "Production authentication/TLS/ACLs/operations not implemented",
+    "Admin history has first-page display only; use API pagination for later events"
+  ],
+  "counting_note": "Supplementary scenario executions are reported separately; repeated performance runs are not counted as new regression test cases.",
+  "provenance": "Sanitized summaries of preserved local runs; not a new execution in this GitHub export."
+}

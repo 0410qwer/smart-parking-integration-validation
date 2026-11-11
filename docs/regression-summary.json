@@ -1,0 +1,192 @@
+{
+  "overall": "PASS",
+  "totals": {
+    "passed": 255,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "suites": [
+    {
+      "name": "regression",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 81,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "passed": 16,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "passed": 6,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 1.8284389999462292
+    },
+    {
+      "name": "mqtt",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 18,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 4.397943099960685
+    },
+    {
+      "name": "backend",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 26,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 13.065977599937469
+    },
+    {
+      "name": "sensor",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 21,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "passed": 9,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 6.7972670999588445
+    },
+    {
+      "name": "replay_browser",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 12,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 40.814047100022435
+    },
+    {
+      "name": "mqtt_browser",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 7,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 32.79281090002041
+    },
+    {
+      "name": "backend_browser",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 7,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 37.53112199995667
+    },
+    {
+      "name": "live_contract",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 11,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "passed": 8,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 4.917157299933024
+    },
+    {
+      "name": "multi_contract",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 23,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 16.61131190008018
+    },
+    {
+      "name": "live_e2e",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 23.971158100059256
+    },
+    {
+      "name": "startup",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 8,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 62.38921980001032
+    },
+    {
+      "name": "multi_browser",
+      "exit_code": 0,
+      "counts": [
+        {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ],
+      "duration_seconds": 49.074130499968305
+    }
+  ],
+  "publication_note": "Original host paths and process commands omitted; all original test counts retained."
+}
